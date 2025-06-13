@@ -1,97 +1,108 @@
-# project-docs-project-charter.md
 # 🛠️ Project Charter: RewardCoin – E-Commerce Portal for Schools
 
-## 📌 Project Title
-**RewardCoin** – A Coin-Based Educational E-Commerce Portal
+---
+
+## 🧾 Executive Summary
+RewardCoin is a coin-based e-commerce reward portal designed for school environments. Students can complete assigned tasks to earn coins and redeem them for listed products, similar to Amazon or Flipkart — but with coins instead of cash. It features role-based dashboards for Admin, Teachers, and Parents/Students, aiming to gamify motivation and streamline academic recognition.
 
 ---
 
-## 🎯 Project Purpose
-To build a role-based reward system integrated with an e-commerce portal, where students can earn reward coins by completing tasks assigned by teachers and redeem those coins for products listed by the admin. This promotes student motivation and streamlines school-based reward systems using technology.
+## 🎯 Project Goal (SMART)
+
+**Specific**: Create a school-specific coin-based reward platform  
+**Measurable**: Enable at least 10 tasks, 20 student profiles, and 10 product redemptions within 45 days  
+**Achievable**: Using current web stack and available time over 5–6 weeks  
+**Relevant**: Aligns with educational motivation and reward systems  
+**Time-bound**: MVP ready and functional by August 31, 2024
 
 ---
 
-## 🥅 Project Objectives
+## 📦 Deliverables
 
-- Enable Admins to manage products, inventory, and user accounts
-- Provide Teachers with the ability to assign tasks and reward coins
-- Allow Parents to register accounts and manage child profiles
-- Offer Students a gamified dashboard to view tasks and redeem coins
-- Simulate an e-commerce environment using coins instead of currency
-
----
-
-## 📦 Scope
-
-### ✅ In Scope (Phase 1)
-- Admin dashboard with:
+- Admin Dashboard with:
   - Product management (CRUD)
-  - Inventory & order tracking
-  - Task creation and coin assignment
-  - User account approval workflows
-- Parent login and child registration (with admin verification)
-- Teacher dashboard for:
-  - Class/student view
-  - Task assignment
-  - Task review & coin deposit
-- Student dashboard with:
-  - Earned coins view
-  - Reward store access (purchase via coins)
-  - Task list display
-- SMS notification system for account activation
-- Coin ledger system for reward tracking
-
-### ❌ Out of Scope (for MVP)
-- Real payment gateway integration
-- Physical delivery logistics or courier APIs
-- AI-based task evaluation
-- Multilingual support
+  - Task and reward configuration
+  - Inventory/order tracking
+- Teacher Dashboard with:
+  - Student list by class/section
+  - Task assignment and reward approval
+- Parent/User Dashboard:
+  - Register and manage children
+  - View coin balance, redeem rewards
+- Reward Store Interface
+- Basic SMS notification on activation
+- GitHub Repo with full documentation
 
 ---
 
-## 👥 Stakeholders
+## 💼 Business Case / Background
 
-| Role              | Name / Description                        |
-|-------------------|--------------------------------------------|
-| Project Manager   | Dr. Sudheer Kumar                          |
-| Product Owner     | School Leadership                          |
-| Developer Team    | Internal / GitHub Contributors             |
-| Users             | Admin, Teachers, Parents, Students         |
+Many schools offer tangible rewards for academic or behavioral achievements, but these systems are manual, inconsistent, and often untracked. RewardCoin digitizes this process, enabling transparency, accountability, and motivation through a gamified portal that integrates reward tasks with a point-based e-commerce system.
 
 ---
 
-## 🗓️ Timeline
+## 💰 Benefits, Costs, and Budget
 
-| Phase                   | Duration  | Deliverables                          |
-|------------------------|-----------|----------------------------------------|
-| 🟩 Planning             | 1 Week    | Charter, Backlog, Initial Wireframes   |
-| 🟦 Sprint 1             | 2 Weeks   | Admin Module, User Login, Product UI   |
-| 🟨 Sprint 2             | 2 Weeks   | Task Modules, Dashboards, Coin Logic   |
-| 🟪 Testing & Deployment | 1 Week    | QA, Bug Fixes, Final Deployment        |
+### 🎁 Benefits:
+- Boosts student engagement and discipline
+- Enables teachers to reward specific behaviors or milestones
+- Reduces admin overhead in tracking reward inventory
+- Transparent and centralized system
 
----
+### 💸 Costs:
+- Development time (~100–150 hours)
+- Hosting (~₹500–1000/month for MVP)
+- Optional SMS API (~₹250 for 1000 messages)
 
-## 🧮 Success Criteria
-
-- Admin, Teacher, and User dashboards fully operational
-- Coin-based e-commerce functionality (view → add to cart → purchase)
-- Task-to-coin logic integrated across all roles
-- At least 3 child accounts, 10 products, and 5 tasks successfully demonstrated
-- Functional SMS-based user activation flow
-- Public GitHub repository with full documentation and issue tracking
-
----
-
-## ⚠️ Risks & Mitigation
-
-| Risk                                  | Mitigation Strategy                        |
-|---------------------------------------|---------------------------------------------|
-| Delay in SMS gateway or API integration | Use simulated SMS logs or local messages   |
-| Complex child-parent-user logic        | Build user model modularly, test thoroughly|
-| Coin logic mismatch across roles       | Centralize coin logic and maintain a ledger|
+### 📊 Budget (Estimated for MVP):
+| Item               | Cost Estimate   |
+|--------------------|-----------------|
+| Web hosting        | ₹800            |
+| SMS Gateway        | ₹250            |
+| Dev Time (if paid) | ₹20,000+        |
+| GitHub & Tools     | Free            |
+| **Total**          | **₹1,000 – ₹20,000** (depending on in-house effort)
 
 ---
 
-## 🔄 Change Control
+## 🧾 Scope & Exclusions
 
-All significant changes to project scope, user flow, or technical architecture must be approved by the project owner and logged via GitHub Issues or Pull Requests.
+### ✅ In Scope (MVP):
+- Role-based login (Admin, Teacher, Parent/Student)
+- Task-based coin rewards
+- Product catalog with coin pricing
+- SMS-based activation workflow
+- Coin ledger and redemption flow
+
+### ❌ Exclusions:
+- Real-money payment gateway
+- Full delivery logistics
+- Auto-grading or AI task evaluation
+- Advanced analytics/reporting
+
+---
+
+## 👥 Project Team
+
+| Role              | Person             |
+|-------------------|--------------------|
+| Project Sponsor    | School Leadership  |
+| Project Manager    | Dr. Sudheer Kumar  |
+| Developer(s)       | In-house / GitHub contributors |
+| QA/Testing         | TBD (manual for now) |
+| Stakeholders       | Students, Teachers, Admin, Parents |
+
+---
+
+## 🧮 Measuring Success
+
+| Metric                              | Target                |
+|-------------------------------------|------------------------|
+| Student task completion rate        | ≥ 70% within 30 days   |
+| Active user registrations           | ≥ 25 parents/students  |
+| Product redemptions (via coins)     | ≥ 10 successful orders |
+| Admin and Teacher engagement        | Daily logins by 3+ users|
+| Functional dashboards               | All 3 roles tested     |
+| Deployment                          | Live MVP by August 31, 2024 |
+
+---
