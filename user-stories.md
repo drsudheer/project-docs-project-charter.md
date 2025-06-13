@@ -1,0 +1,12 @@
+# 📑 User Stories for Reward-Based E-Commerce Portal
+
+| ID   | User Role     | User Story                                                                 | Acceptance Criteria                                                                                   | Priority | Status  |
+|------|---------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|----------|---------|
+| US01 | Admin         | As an admin, I want to upload product images, descriptions, and coin-based prices, so that students can view and redeem them. | - Upload image <br> - Enter title, description, coin value <br> - Products are visible in user store | High     | Backlog |
+| US02 | Admin         | As an admin, I want to view and update the status of product orders, so that inventory is properly tracked. | - Dashboard view with filters <br> - Update order status <br> - Notifications sent on change         | High     | Backlog |
+| US03 | Admin         | As an admin, I want to approve parent and child profiles, so that only verified users can access the system. | - View pending accounts <br> - Approve/reject <br> - Send SMS on approval                             | Medium   | Backlog |
+| US04 | Teacher       | As a teacher, I want to assign tasks to a class or student, so that students can earn coins. | - Select class/student <br> - Define task & deadline <br> - Set coin reward                          | High     | Backlog |
+| US05 | Teacher       | As a teacher, I want to review completed tasks, so that coins can be awarded accurately. | - View submissions <br> - Approve or reject <br> - Coins credited on approval                        | High     | Backlog |
+| US06 | Parent/User   | As a parent, I want to register using my phone number and add children, so that I can manage their accounts. | - Mobile verification <br> - Add child info <br> - Admin approval required                            | High     | Backlog |
+| US07 | Parent/Child  | As a user, I want to view a dashboard showing coins, tasks, and rewards, so that I can track and redeem. | - Coin total <br> - Task list <br> - Redeemable items <br> - Order history                            | High     | Backlog |
+| US08 | Child         | As a child, I want to redeem available coins for rewards, so that I feel motivated to complete tasks. | - Browse store <br> - Add to cart <br> - Deduct coins on purchase                                    | High     | Backlog |
