@@ -21,6 +21,8 @@ RewardCoin is a coin-based e-commerce reward portal designed for school environm
 
 - Admin Dashboard with:
   - Product management (CRUD)
+          CRUD = Create: Add new products (name, image, price in coins, description); Read: View product list, search, filter;
+          Update: Edit product details (price, stock, images); Delete: Remove a product
   - Task and reward configuration
   - Inventory/order tracking
 - Teacher Dashboard with:
@@ -54,7 +56,7 @@ Many schools offer tangible rewards for academic or behavioral achievements, but
 - Hosting (~₹500–1000/month for MVP)
 - Optional SMS API (~₹250 for 1000 messages)
 
-### 📊 Budget (Estimated for MVP):
+### 📊 Budget (Estimated for MVP): (Minimum Viable Product)
 | Item               | Cost Estimate   |
 |--------------------|-----------------|
 | Web hosting        | ₹800            |
