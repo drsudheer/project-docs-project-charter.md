@@ -1,4 +1,4 @@
-# 🛠️ Project Charter: RewardCoin – E-Commerce Portal for Schools
+# 🛠️ Project Charter: E-Commerce Reward based Portal for Students
 
 ---
 
