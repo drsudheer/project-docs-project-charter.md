@@ -1,4 +1,4 @@
-# 🛠️ Project Charter: E-Commerce Reward based Portal for Students
+# 🛠️ Project Charter: Reward based E-Commerce Portal for Students
 
 ---
 
