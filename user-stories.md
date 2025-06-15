@@ -1,4 +1,4 @@
-# 📑 User Stories for Reward-Based E-Commerce Portal
+# 📑 User Stories for Reward based E-Commerce Portal for Students
 
 | ID   | User Role     | User Story                                                                 | Acceptance Criteria                                                                                   | Priority | Status  |
 |------|---------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|----------|---------|
