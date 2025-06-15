@@ -1,7 +1,7 @@
 # 📃 Statement of Work (SOW)
 
 ## 🧩 Project Title:
-**RewardCoin – Gamified E-Commerce Reward Portal for Students**
+**E-Commerce Reward based Portal for Students**
 
 ---
 
